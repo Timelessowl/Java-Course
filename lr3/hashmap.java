@@ -13,8 +13,8 @@ public class hashmap {
         map.put(4, "Four");
         map.put(5, "Five");
         map.put(6, "Six");
-        map.put(7, "Seven");
-        map.put(8, "Eight");
+        map.put(7, "Seven7");
+        map.put(8, "Eight8");
         map.put(9, "Nine");
 
         System.out.println("Строки с ключем > 5:");

@@ -15,7 +15,7 @@ public class array_list {
 
         int index = 0;
         while (list.size() > 1) {
-            index = (index + 2) % list.size();
+            index = (index + 1) % list.size();
             list.remove(index);
         }
 

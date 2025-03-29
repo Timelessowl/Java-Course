@@ -6,6 +6,7 @@ public class example5 {
     }
 
     public static int fact(int n) {
+        System.out.println(" Вызов fact(" + n + ")");
         if (n == 0) {
             return 0;
         } else if (n == 1) {
