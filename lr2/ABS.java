@@ -7,7 +7,7 @@ interface BankAccountOperations {
 
     void withdraw(int amount);
 
-    double getBalance();
+    int getBalance();
 }
 
 class BankAccount implements BankAccountOperations {
@@ -43,7 +43,7 @@ class BankAccount implements BankAccountOperations {
     }
 
     @Override
-    public double getBalance() {
+    public int getBalance() {
         return balance;
     }
 

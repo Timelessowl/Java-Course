@@ -12,7 +12,7 @@ public class task3 {
         text = encrypt(text, shift);
         System.out.println("Текст после преобразования: " + text);
         System.out.println("Выполнить обратное преобразование? (y/n)");
-        choseOption(in, text, shift);
+        chooseOption(in, text, shift);
         in.close();
     }
 
@@ -33,7 +33,7 @@ public class task3 {
         return new String(ch_text);
     }
 
-    public static void choseOption(Scanner in, String text, int shift) {
+    public static void chooseOption(Scanner in, String text, int shift) {
         char answer = in.next().charAt(0);
         if (answer == 'y') {
             System.out.println("Текст после обратного преобразования: " + decrypt(text, shift));
@@ -41,7 +41,7 @@ public class task3 {
             System.out.println("До свидания!");
         } else {
             System.out.println("Введите корректный ответ.");
-            choseOption(in, text, shift);
+            chooseOption(in, text, shift);
         }
     }
 
